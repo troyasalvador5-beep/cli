@@ -1,5 +1,13 @@
 # Changelog
 
+## [9.4.3-pre.0.0](https://github.com/npm/cli/compare/arborist-v9.4.2...arborist-v9.4.3-pre.0.0) (2026-04-17)
+### Bug Fixes
+* [`bc32d94`](https://github.com/npm/cli/commit/bc32d94d3845078784603022e9c3504e1c5cde4a) [#9198](https://github.com/npm/cli/pull/9198) arborist: propagate overrides through Link nodes to targets (#9198) (@manzoorwanijk)
+* [`1ab20c8`](https://github.com/npm/cli/commit/1ab20c8abd58cadc976429bb3b7b35cd6b627db4) [#9235](https://github.com/npm/cli/pull/9235) arborist: fix infinite loop with bundledDependencies and overrides (#9235) (@everett1992)
+* [`0dc5585`](https://github.com/npm/cli/commit/0dc5585fa284f5c8cac36579983119304775c1c8) [#9167](https://github.com/npm/cli/pull/9167) arborist: handle `npm link` with install-strategy=linked (@manzoorwanijk)
+* [`1d058b0`](https://github.com/npm/cli/commit/1d058b0cc7161fa728cba2020a265a81e0ec7cdf) [#9221](https://github.com/npm/cli/pull/9221) arborist: do not install inert optional extraneous shared dependencies (#9221) (@lovell)
+* [`dcad8ec`](https://github.com/npm/cli/commit/dcad8ec1f830874d2ec1c3312f2c15d03109ce49) [#9206](https://github.com/npm/cli/pull/9206) pass _isRoot context where missing (#9206) (@wraithgar)
+
 ## [9.4.2](https://github.com/npm/cli/compare/arborist-v9.4.1...arborist-v9.4.2) (2026-03-18)
 ### Bug Fixes
 * [`21ea382`](https://github.com/npm/cli/commit/21ea382a60b3693ff6c44c81447caa5d0294169c) [#9110](https://github.com/npm/cli/pull/9110) arborist: resolve sibling override sets via common ancestor (#9110) (@manzoorwanijk)

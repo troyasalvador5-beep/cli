@@ -1,3 +1,4 @@
+beep/ cli .
 ---
 title: npm-run-script
 section: 1
